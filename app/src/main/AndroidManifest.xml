@@ -18,7 +18,7 @@
         android:theme="@style/Theme.VunaTec"
         tools:targetApi="31">
         <activity
-            android:name=".feature_detection.presentation.activities.MainActivity"
+            android:name=".feature_send_data.feature_detection.presentation.activities.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.VunaTec">

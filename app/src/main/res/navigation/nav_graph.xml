@@ -3,21 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/monitorFragment">
+    app:startDestination="@id/paymentsFragment">
     <fragment
         android:id="@+id/permissionsFragment"
-        android:name="com.dev.chacha.vunatec.feature_detection.presentation.fragments.permissions.PermissionsFragment"
+        android:name="com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.permissions.PermissionsFragment"
         android:label="permissions_fragment"
         tools:layout="@layout/permissions_fragment" >
         <action
             android:id="@+id/actionPermissionsToCamera"
             app:destination="@id/cameraFragment"
-            app:popUpTo="@id/permissionsFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/cameraFragment"
-        android:name="com.dev.chacha.vunatec.feature_detection.presentation.fragments.camera.CameraFragment"
+        android:name="com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.camera.CameraFragment"
         android:label="camera_fragment"
         tools:layout="@layout/camera_fragment" >
         <action
@@ -26,29 +25,10 @@
             app:popUpTo="@id/cameraFragment"
             app:popUpToInclusive="true"/>
     </fragment>
-    <fragment
-        android:id="@+id/monitorFragment"
-        android:name="com.dev.chacha.vunatec.feature_monitor.presentation.fragments.MonitorFragment"
-        android:label="monitor_fragment"
-        tools:layout="@layout/monitor_fragment" >
-        <argument
-            android:name="hasBottomNav"
-            android:defaultValue="true"
-            app:argType="boolean" />
-    </fragment>
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.dev.chacha.vunatec.feature_profile.presentation.fragments.ProfileFragment"
-        android:label="profile_fragment"
-        tools:layout="@layout/profile_fragment" >
-        <argument
-            android:name="hasBottomNav"
-            android:defaultValue="true"
-            app:argType="boolean" />
-    </fragment>
+
     <fragment
         android:id="@+id/detectionFragment"
-        android:name="com.dev.chacha.vunatec.feature_detection.presentation.fragments.detection.DetectionFragment"
+        android:name="com.dev.chacha.vunatec.feature_send_data.send_data.DetectionFragment"
         android:label="detection_fragment"
         tools:layout="@layout/detection_fragment" >
         <argument
@@ -59,5 +39,47 @@
             android:id="@+id/actionDetectionToPermissions"
             app:destination="@id/permissionsFragment" />
 
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.dev.chacha.vunatec.feature_alerts.presentation.fragment.AlertsFragment"
+        android:label="alerts_fragment"
+        tools:layout="@layout/alerts_fragment" >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/paymentsFragment"
+        android:name="com.dev.chacha.vunatec.feature_payments.presentation.fragments.PaymentsFragment"
+        android:label="payments_fragment"
+        tools:layout="@layout/payments_fragment" >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.dev.chacha.vunatec.feature_calender.presentation.fragments.CalenderFragment"
+        android:label="CalenderFragment"
+        tools:layout="@layout/calender_fragment"
+        >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/myFarmFragment"
+        android:name="com.dev.chacha.vunatec.feature_my_farm.presentation.fragment.MyFarmFragment"
+        android:label="my_farm_fragment"
+        tools:layout="@layout/my_farm_fragment" >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
     </fragment>
 </navigation>

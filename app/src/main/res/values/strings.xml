@@ -7,6 +7,9 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="password_visible_content_description">Hide password</string>
+    <string name="password_hidden_content_description">Show password</string>
+
     <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
 
     <string name="alt_bottom_sheet_max_results_button_minus">Decreasing maxium detected results
@@ -44,4 +47,35 @@
     <string name="monitor">Monitor</string>
     <string name="detect">Detect</string>
     <string name="profile">Profile</string>
+    <string name="crop_health">Crop Health</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_one">Stand 3 -5 m from tree and centre fruit</string>
+    <string name="begin">Begin</string>
+    <string name="add_calender">Add to Calender</string>
+    <string name="predicted_harvest_date">Predicted Harvest Date</string>
+    <string name="farm_overview">Farm Overview</string>
+    <string name="new_farm">New Farm</string>
+    <string name="signin">Sign In</string>
+    <string name="county">County</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="idnumber_hint">ID Number</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="createPasswd_header">Create Password</string>
+    <string name="validate_specialChar">Validate</string>
+    <string name="validateCharLong">Validate Character Long</string>
+    <string name="validateLetter">Validate Latters</string>
+    <string name="validate_header">Validate Header Text</string>
+    <string name="passwordMatch">Validate Password</string>
+    <string name="select_hint">Select Hint</string>
+    <string name="verify_header">Verify Header</string>
+    <string name="create_account">Create new account</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="payments">Payments</string>
+    <string name="myfarm">My Farm</string>
+    <string name="alerts">Alerts</string>
+    <string name="senddata">Send Data</string>
+    <string name="calender">Calender</string>
 </resources>

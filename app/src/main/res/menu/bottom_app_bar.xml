@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/monitorFragment"
+        android:id="@+id/paymentsFragment"
         android:icon="@drawable/icn_chevron_up"
-        android:title="@string/monitor"
+        android:title="@string/payments"
         android:enabled="true"
-        android:contentDescription="@string/monitor"
+        android:contentDescription="@string/payments"
         />
 
     <item
         android:id="@+id/detectionFragment"
         android:icon="@drawable/ic_100tb"
-        android:title="@string/detect"
+        android:title="@string/senddata"
         android:enabled="true"
-        android:contentDescription="@string/detect"
+        android:contentDescription="@string/senddata"
+        />
+    <item
+        android:id="@+id/myFarmFragment"
+        android:icon="@drawable/ic_plus"
+        android:title="@string/myfarm"
+        android:enabled="true"
+        android:contentDescription="@string/myfarm"
         />
 
-    <!-- <item
-         android:id="@+id/parcelFragment"
-         android:icon="@drawable/shipping_parcel_icon"
-         android:title="@string/parcel"
-         android:enabled="true"
-         android:contentDescription="@string/parcel"
-         />-->
+    <item
+        android:id="@+id/calenderFragment"
+        android:icon="@drawable/ic_plus"
+        android:title="@string/calender"
+        android:enabled="true"
+        android:contentDescription="@string/calender"
+        />
+
 
     <item
-        android:id="@+id/profileFragment"
+        android:id="@+id/alertsFragment"
         android:icon="@drawable/ic_plus"
-        android:title="@string/profile"
+        android:title="@string/alerts"
         android:enabled="true"
-        android:contentDescription="@string/profile"
+        android:contentDescription="@string/alerts"
         />
 
 </menu>
