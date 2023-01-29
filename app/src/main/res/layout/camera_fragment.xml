@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".feature_detection.presentation.fragments.camera.CameraFragment">
+    tools:context=".feature_send_data.feature_detection.presentation.fragments.camera.CameraFragment">
 
     <androidx.camera.view.PreviewView
         android:id="@+id/view_finder"
@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         app:scaleType="fillStart"/>
 
-    <com.dev.chacha.vunatec.feature_detection.presentation.customview.OverlayView
+    <com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.customview.OverlayView
         android:id="@+id/overlay"
         android:layout_height="match_parent"
         android:layout_width="match_parent" />

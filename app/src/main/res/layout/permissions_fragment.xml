@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature_detection.presentation.fragments.permissions.PermissionsFragment">
+    tools:context=".feature_send_data.feature_detection.presentation.fragments.permissions.PermissionsFragment">
 
     <TextView
         android:layout_width="match_parent"

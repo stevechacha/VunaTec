@@ -40,7 +40,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion "$compose_version"
+        kotlinCompilerExtensionVersion "1.2.0"
     }
 
     androidResources {
@@ -48,6 +48,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        compose true
     }
 }
 
@@ -73,7 +74,10 @@ dependencies {
     implementation 'androidx.activity:activity-compose:1.6.0'
     implementation "androidx.compose.compiler:compiler:1.3.2"
     implementation "com.google.accompanist:accompanist-systemuicontroller:0.25.1"
+    implementation "androidx.compose.material:material-icons-extended:$compose_version"
 
+
+    //Guava
     implementation 'com.google.guava:guava:30.1-jre'
 
 
@@ -152,6 +156,9 @@ dependencies {
     // Import the GPU delegate plugin Library for GPU inference
     implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu:2.9.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
+
+
 
     // SplashScreen Api
     implementation 'androidx.core:core-splashscreen:1.0.0'
