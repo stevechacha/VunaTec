@@ -28,7 +28,7 @@
 
     <fragment
         android:id="@+id/detectionFragment"
-        android:name="com.dev.chacha.vunatec.feature_send_data.send_data.DetectionFragment"
+        android:name="com.dev.chacha.vunatec.feature_send_data.presentation.DetectionFragment"
         android:label="detection_fragment"
         tools:layout="@layout/detection_fragment" >
         <argument

@@ -78,4 +78,11 @@
     <string name="alerts">Alerts</string>
     <string name="senddata">Send Data</string>
     <string name="calender">Calender</string>
+
+
+    <string name="image_view">Image View</string>
+    <string name="run_model">Running the model...</string>
+    <string name="restart">Restart</string>
+    <string name="select">Select</string>
+    <string name="live">Live</string>
 </resources>
