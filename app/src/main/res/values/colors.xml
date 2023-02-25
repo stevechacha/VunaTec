@@ -10,4 +10,7 @@
     <color name="icActive">#FFFFFFFF</color>
     <color name="icFocused">#DDFFFFFF</color>
     <color name="icPressed">#AAFFFFFF</color>
+    <color name="green">#9BBB59</color>
+    <color name="orange">#B45400</color>
+    <color name="light_orange">#DF872C</color>
 </resources>

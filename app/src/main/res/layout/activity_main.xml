@@ -27,8 +27,9 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
+        app:itemTextColor="@drawable/bottom_navigation_colors"
         android:background="@android:color/transparent"
-        style="@style/Widget.Material3.BottomNavigationView"
+        style="@style/BottomNavigationViewStyle"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:menu="@menu/bottom_app_bar"

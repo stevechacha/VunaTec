@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/paymentsFragment"
-        android:icon="@drawable/icn_chevron_up"
+        android:icon="@drawable/icon_payment"
         android:title="@string/payments"
         android:enabled="true"
         android:contentDescription="@string/payments"
@@ -10,14 +10,14 @@
 
     <item
         android:id="@+id/detectionFragment"
-        android:icon="@drawable/ic_100tb"
+        android:icon="@drawable/icon_camera"
         android:title="@string/senddata"
         android:enabled="true"
         android:contentDescription="@string/senddata"
         />
     <item
         android:id="@+id/myFarmFragment"
-        android:icon="@drawable/ic_plus"
+        android:icon="@drawable/ic_home"
         android:title="@string/myfarm"
         android:enabled="true"
         android:contentDescription="@string/myfarm"
@@ -25,7 +25,7 @@
 
     <item
         android:id="@+id/calenderFragment"
-        android:icon="@drawable/ic_plus"
+        android:icon="@drawable/icon_calender"
         android:title="@string/calender"
         android:enabled="true"
         android:contentDescription="@string/calender"
@@ -34,7 +34,7 @@
 
     <item
         android:id="@+id/alertsFragment"
-        android:icon="@drawable/ic_plus"
+        android:icon="@drawable/icon_alert"
         android:title="@string/alerts"
         android:enabled="true"
         android:contentDescription="@string/alerts"

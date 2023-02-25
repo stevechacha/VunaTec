@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/cameraFragment"
-        android:name="com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.camera.CameraFragment"
+        android:name="com.dev.chacha.vunatec.feature_detection.presentation.fragments.camera.CameraFragment"
         android:label="camera_fragment"
         tools:layout="@layout/camera_fragment" >
         <action

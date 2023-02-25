@@ -1,4 +1,4 @@
-package com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.camera
+package com.dev.chacha.vunatec.feature_detection.presentation.fragments.camera
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,17 +17,14 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.navigation.Navigation
 import com.dev.chacha.vunatec.R
 import com.dev.chacha.vunatec.databinding.CameraFragmentBinding
+import com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.camera.CameraFragmentDirections
 import com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.fragments.permissions.PermissionsFragment
 import com.dev.chacha.vunatec.feature_send_data.feature_detection.presentation.helpers.ObjectDetectorHelper
-import com.google.common.math.LongMath.sqrt
-import org.tensorflow.lite.support.common.ops.NormalizeOp
 import org.tensorflow.lite.task.vision.detector.Detection
-import org.tensorflow.lite.support.image.TensorImage
 import java.util.*
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
-import kotlin.math.sqrt
 
 class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
 
